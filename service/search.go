@@ -5,6 +5,6 @@ import (
 	"fmt"
 )
 func (*Service) Search(ctx context.Context, keyword string) interface{} {
-	fmt.Println("Slack integration code can be further segregated here...")
+	fmt.Println("Slack search integration code can be further segregated here...: keyword:", keyword)
 	return nil
 }
